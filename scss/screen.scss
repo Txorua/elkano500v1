@@ -1,0 +1,174 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3";
+@import "compass/typography/vertical_rhythm";
+
+body {
+  background: rgba(255, 255, 255, 0) url(../../assets/images/foto_fondo.jpg) repeat top left;
+  color: #777777;
+  font-size: 21px;
+  line-height: 1.5em;
+}
+
+/**
+ * Site header
+ * */
+.site-header {
+  position: relative;
+  background-color: #29286a;
+  a {
+    color: #eeeeee;
+  }
+  .glyphicon {
+    color: #eeeeee;
+  }
+  .header-links {
+    @include rhythm(0,1,1,0);
+    a.active {
+      color: #777777;
+    }
+    a {
+      color: #cccccc;
+    }
+  }
+  nav[role=navigation] {
+    position: relative;
+    margin-bottom: 0;
+    @include border-radius(0);
+    z-index: 20;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    a {
+      color: 29286a;
+    }
+    a.navbar-brand {
+        img {
+          position: absolute;
+          margin-top: -4em;
+          margin-left: 0.5em;
+        }
+    }
+    .navbar-collapse {
+      ul {
+        font-family: "Alegreya", serif;
+        li.leaf {
+          list-style-image: none;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Slider
+ */
+#slideshow {
+  position: relative;
+  z-index: 10;
+}
+
+/**
+ * Main content
+ */
+main {
+  @include rhythm(2,0,0,2);
+  font-family: Alegreya, serif;
+
+  a {
+    color: #777777;
+  }
+
+  article {
+    p {
+      @include rhythm(0,0,0,0.5);
+    }
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .marco-foto {
+    padding: 0.5em;
+    background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
+    background-size: cover;
+  }
+
+  blockquote {
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  color: #eeeeee;
+  .row {
+    background-color: #29286a;
+  }
+
+  .redes-sociales {
+    background-color: transparent;
+    border-bottom: solid 0.3em #29286a;
+
+    ul {
+      background-color: white;
+      margin-bottom: -0.3em;
+    }
+  }
+
+  .footer-heading {
+    font-family: serif;
+    color: #eeeeee;
+    margin-bottom: 0.5em;
+  }
+  #udala h1:before {
+    content: url(../../assets/images/logo-getariako-udala.png);
+    vertical-align: top;
+  }
+  #turismo h1:before {
+    content: url(../../assets/images/logo-getaria-turismo.png);
+    vertical-align: top;
+  }
+  .footer-menu a {
+    color: #eeeeee;
+  }
+}
+
+/**
+ * Centenario
+ */
+.isotope-item {
+  @include rhythm(0,0,0,1);
+}
+
+@media (min-width: 768px) {
+  nav[role=navigation] {
+    background-color: rgba(white, 0.8);
+    border-top: solid 1em white;
+    ul {
+      @include adjust-font-size-to(14px);
+    }
+  }
+  #slideshow {
+    margin-top: -3.4em;
+  }
+}
+@media (min-width: 992px) {
+  nav[role=navigation] {
+    ul {
+      @include adjust-font-size-to(16px);
+    }
+  }
+  #slideshow {
+  }
+}
+@media (min-width: 1200px) {
+  nav[role=navigation] {
+  }
+}

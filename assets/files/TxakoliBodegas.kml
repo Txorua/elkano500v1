@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Txakoli Bodegas</name>
+  <description><![CDATA[Denominación de Origen, Getaria.]]></description>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://www.virtualgeosim.com/getaria/images/icon_app/pin_pink.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Bodegas de Txakoli</name>
+    <Snippet>Denominación de Origen, Getaria.</Snippet>
+    <description><![CDATA[<font face="arial" size="2">Denominación de Origen, Getaria.</font>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-2.216234,43.295513,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Ulacia</name>
+    <Snippet>Carretera Meagas20808 Getaria (Gipuzkoa)Teléfono: 943 140 893nicolasulacia@eusk</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Carretera Meagas</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 893</font></td></tr><tr><td><font color="#999999" size="2">nicolasulacia@euskalnet.net<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/ulacia.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-2.206468,43.302288,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Gaintza</name>
+    <Snippet>Caserío Gaintza20808 Getaria (Gipuzkoa)Teléfono: 943 140 032josebalazkano@gmai</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Gaintza</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 032</font></td></tr><tr><td><font color="#999999" size="2">josebalazkano@gmail.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/gaintza.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-2.210441,43.302925,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Akarregi Txiki</name>
+    <Snippet>Caserío Akarregi-txiki, Barrio Akarregi20808 Getaria (Gipuzkoa)Teléfono: 689 0</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Akarregi-txiki, Barrio Akarregi</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 689 035 789</font></td></tr><tr><td><font color="#999999" size="2">lasaldeelkartea@hotmail.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/akarregi_txiki.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-2.210779,43.301361,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Etxetxo</name>
+    <Snippet>Caserío Etxetxo, Barrio San Prudencio20808 Getaria (Gipuzkoa)Teléfono: 943 140</Snippet>
+    <description><![CDATA[<img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/etxetxo.jpg" style="width:242px"><table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Etxetxo, Barrio San Prudencio</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 085</font></td></tr><tr><td><font color="#999999" size="2">oier@etxetxo.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.etxetxo.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.etxetxo.com</a><br></font><img src="http://"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-2.219093,43.305511,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Agerre</name>
+    <Snippet>Caserío Agerre, Barrio Askizu20808 Getaria (Gipuzkoa)Teléfono: 943 140 446txak</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Agerre, Barrio Askizu</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 446</font></td></tr><tr><td><font color="#999999" size="2">txakaguerre@terra.es<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/agerre.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-2.223197,43.305592,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Gañeta</name>
+    <Snippet>Caserío Agerre Goikoa, Barrio Askizu20808 Getaria (Gipuzkoa)Teléfono: 943 140 </Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Agerre Goikoa, Barrio Askizu</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 174</font></td></tr><tr><td><font color="#999999" size="2">gainetatxakolina@gmail.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/ganeta.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-2.224302,43.305279,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Urki</name>
+    <Snippet>Caserio Urkidi, Barrio Askizu20808 Getaria, (Gipuzkoa)Teléfono: 943 140 049info</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserio Urkidi, Barrio Askizu</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria, (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 049</font></td></tr><tr><td><font color="#999999" size="2">info@urkitxakolina.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.urkitxakolina.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.urkitxakolina.com</a><br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/urki.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-2.225364,43.301189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Aizpurua</name>
+    <Snippet>Carretera Megas20808 Getaria (Gipuzkoa)Teléfono: 943 140 696 / 943 580 922</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Carretera Megas</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 696 / 943 580 922</font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/aizpurua.jpg" style="width:231px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-2.204561,43.297119,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Ameztoi</name>
+    <Snippet>Barrio Eitzaga 1020808 Getaria (Gipuzkoa)Teléfono: 943 140 918Fax: 943 140 169a</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Barrio Eitzaga 10</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 918</font></td></tr><tr><td><font color="#999999" size="2">Fax: 943 140 169</font></td></tr><tr><td><font color="#999999" size="2">ameztoi@txakoliameztoi.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.txakoliameztoi.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.txakoliameztoi.com</a><br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/ameztoi.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-2.198746,43.294277,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Txomin Etxaniz</name>
+    <Snippet>Barrio Eitzaga 2120808 Getaria (Gipuzkoa)Teléfono: 943 140 702txakoli@txominetx</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Barrio Eitzaga 21</font></td></tr><tr><td><font color="#999999" size="2">20808 Getaria (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 702</font></td></tr><tr><td><font color="#999999" size="2">txakoli@txominetxaniz.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.txominetxaniz.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.txominetxaniz.com</a><br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/txomin_etxaniz.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-2.194176,43.296059,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodegas Santabar</name>
+    <Snippet>Camino Santa Barbara 720800 Zarauz (Gipuzkoa)Teléfono: 943 140 452</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Camino Santa Barbara 7</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 140 452<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/santarba.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-2.182138,43.288319,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Baso Lore</name>
+    <Snippet>Caserío Basa Lore, Barrio Santa Barbara 120800 Zarauz (Gipuzkoa)Teléfono: 943 </Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Basa Lore, Barrio Santa Barbara 1</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 132 231</font></td></tr><tr><td><font color="#999999" size="2">base-lore@mixmail.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/basa_lore.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-2.184176,43.284260,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Eizaguirre</name>
+    <Snippet>Barrio Abendaño 10 (Poligono industrial)20800 Zarauz (Gipuzkoa)Teléfono: 620 7</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Barrio Abendaño 10 (Poligono industrial)</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 620 779 025</font></td></tr><tr><td><font color="#999999" size="2">eizagirre@hotmail.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/eizagirre.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-2.176452,43.276749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodegas Talai Berri</name>
+    <Snippet>Barrio Talaimendi 728 - junto al Gran Camping-20800 Zarauz (Gipuzkoa)Teléfono: </Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Barrio Talaimendi 728 - junto al Gran Camping-</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 132 750</font></td></tr><tr><td><font color="#999999" size="2">info@talaiberri.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.talaiberri.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.talaiberri.com</a><br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/talai_berri.jpg" style="width:249px"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-2.146186,43.287312,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Arregi</name>
+    <Snippet>Barrio Talaimendi 727 - junto al camping-20800 Zarauz (Gipuzkoa)Teléfono: 943 5</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Barrio Talaimendi 727 - junto al camping-</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 580 835</font></td></tr><tr><td><font color="#999999" size="2">txakoliarregi@terra.es<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/arregi.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-2.144651,43.283329,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Zudagarai</name>
+    <Snippet>Carretera Zarauz-Aia, Barrio Laurgain20809 Aia (Gipuzkoa)Teléfono: 943 830 386t</Snippet>
+    <description><![CDATA[<span style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)">Carretera Zarauz-Aia, Barrio Laurgain</span><br style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)"><br style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)"><span style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)">20809 Aia (Gipuzkoa)</span><br style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)"><span style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)">Teléfono: 943 830 386</span><br style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)"><span style="color:rgb(153, 153, 153);font-size:small;text-align:-webkit-left;background-color:rgb(255, 255, 255)">txakolizudugarai@euskalnet.net</span><div><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/zudugarai.jpg" style="width:242px"></div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-2.139105,43.273369,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Rezabal</name>
+    <Snippet>Casa Itsas Begi 62820800 Zarauz (Gipuzkoa)Teléfono: 943 580 899rezabal_txakolin</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Casa Itsas Begi 628</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 580 899</font></td></tr><tr><td><font color="#999999" size="2">rezabal_txakolina@yahoo.es<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/rezabal.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-2.152918,43.272205,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Mokora</name>
+    <Snippet>Caserío Kortaburu20800 Zarauz (Gipuzkoa)Teléfono: 943 833 925Fax: 943 833 925b</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserío Kortaburu</font></td></tr><tr><td><font color="#999999" size="2">20800 Zarauz (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 833 925</font></td></tr><tr><td><font color="#999999" size="2">Fax: 943 833 925</font></td></tr><tr><td><font color="#999999" size="2">bodega@txakolimokoroa.com</font></td></tr><tr><td><font color="#999999" size="2"><a href="http://www.txakolimokoroa.com/" style="text-decoration:none;color:rgb(0, 0, 0);font-weight:bold" target="_blank">www.txakolimokoroa.com</a><br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/mokoroa.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-2.173308,43.258629,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bodega Sagarmiña</name>
+    <Snippet>Caserio Sagarmiña20830 Mutriku (Gipuzkoa)Teléfono: 943 603 225Fax: 943 192 249</Snippet>
+    <description><![CDATA[<table width="270" border="0" style="color:rgb(0, 0, 0);font-size:small;background-color:rgb(255, 255, 255)"><tbody><tr><td><font color="#999999" size="2">Caserio Sagarmiña</font></td></tr><tr><td><font color="#999999" size="2">20830 Mutriku (Gipuzkoa)</font></td></tr><tr><td><font color="#999999" size="2">Teléfono: 943 603 225</font></td></tr><tr><td><font color="#999999" size="2">Fax: 943 192 249</font></td></tr><tr><td><font color="#999999" size="2">txakolisagarmina@live.com<br></font><img src="http://www.virtualgeosim.com/getaria3d/imagenes/globos/txakoli/sagarmina.jpg"></td></tr></tbody></table>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-2.372645,43.294632,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

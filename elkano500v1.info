@@ -1,0 +1,45 @@
+name = Elkano 500 v1
+description = Bootstrap based theme
+core = 7.x
+
+;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[before_content] = 'Before Content'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = bower_components/bootstrap/dist/css/bootstrap.min.css
+stylesheets[all][] = bower_components/slider-revolution/src/css/settings.css
+stylesheets[all][] = bower_components/magnific-popup/dist/magnific-popup.css
+stylesheets[all][] = bower_components/openlayers3/build/ol.css
+stylesheets[screen, projection][] = assets/css/screen.css
+stylesheets[print][] = assets/css/print.css
+stylesheets-conditional[IE][screen, projection][] = assets/css/ie.css
+stylesheets[all][] = assets/css/zocial-font/zocial.css
+
+;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;
+scripts[] = bower_components/bootstrap/dist/js/bootstrap.min.js
+scripts[] = bower_components/slider-revolution/src/js/jquery.themepunch.plugins.min.js
+scripts[] = bower_components/slider-revolution/src/js/jquery.themepunch.revolution.min.js
+scripts[] = bower_components/imagesloaded/imagesloaded.pkgd.min.js
+scripts[] = bower_components/isotope/dist/isotope.pkgd.min.js
+scripts[] = bower_components/magnific-popup/dist/jquery.magnific-popup.min.js
+scripts[] = bower_components/masonry/dist/masonry.pkgd.min.js
+scripts[] = bower_components/d3/d3.min.js
+scripts[] = bower_components/openlayers3/build/ol.js
+

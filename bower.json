@@ -1,0 +1,26 @@
+{
+  "name": "elkano500v1",
+  "version": "0.0.0",
+  "authors": [
+    "Iñaki García Blasco <txorua@txorua.com>"
+  ],
+  "description": "A Drupal 7 theme",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.4.12",
+    "bootstrap": "~3.2.0",
+    "imagesloaded": "~3.1.8",
+    "isotope": "~2.0.1",
+    "magnific-popup": "~0.9.9",
+    "slider-revolution": "~4.3.7",
+    "openlayers3": "~3.0.0"
+  }
+}
