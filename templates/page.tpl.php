@@ -134,9 +134,6 @@
     <?php endif; ?>
     <?php print render($page['content']); ?>
   </article>
-  <section>
-    <?php print render($page['after_content']); ?>
-  </section>
 </main>
 
 <footer class="site-footer">

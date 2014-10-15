@@ -5,33 +5,34 @@ tpj.noConflict();
 var losNodos = ' . $rows . ';
 
 tpj(document).ready(function($) {
-var body = d3.select("#block-system-main");
-var svg = body.append("svg")
-              .attr("width", 960)
-              .attr("height", 500)
-var nodos = svg.selectAll("text.nodo")
-               .data(losNodos.nodes)
-               .enter()
-               .append("text")
-               .attr("x", 10)
-               .attr("y", function(d, i) { return i * 25; })
-               .text(function(d) { return d.node.title; });
-});
+  var body = d3.select("#block-system-main");
+  var svg = body.append("svg")
+                .attr("width", 960)
+                .attr("height", 500)
+  var projection = d3.geo.mercator()
+                         .center([-0, 38.8])
+                         .scale(890);
+  var path = d3.geo.path()
+                   .projection(projection);
+  var mapa = d3.json("' . base_path() . path_to_theme() . '/assets/files/oceans.json", function(json) {
+    var svg = d3.select("svg")
+    svg.selectAll("path")
+       .data(json.features)
+       .enter()
+       .append("path")
+       .attr("d", path)
+       .style("fill", "lightblue");
 
-var projection = d3.geo.mercator()
-                       .center([-0, 38.8])
-                       .scale(890);
-var path = d3.geo.path()
-                 .projection(projection);
-var mapa = d3.json("' . base_path() . path_to_theme() . '/assets/files/oceans.json", function(json) {
-  var svg = d3.select("svg")
-  svg.selectAll("path")
-     .data(json.features)
-     .enter()
-     .append("path")
-     .attr("d", path)
-     .style("fill", "lightblue");
+    var nodos = svg.selectAll("text.nodo")
+                   .data(losNodos.nodes)
+                   .enter()
+                   .append("text")
+                   .attr("x", 10)
+                   .attr("y", function(d, i) { return i * 25; })
+                   .text(function(d) { return d.node.title; });
+    });
   });
+
 
 d3.select("#block-system-main")
   .append("div")
@@ -47,7 +48,7 @@ var map = new ol.Map({
   layers: [
     new ol.layer.Tile({
       source: new ol.source.Stamen({
-        layer: "watercolor"
+        layer: "toner"
       })
     }), vector
   ],
