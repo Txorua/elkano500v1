@@ -27,7 +27,7 @@
  * @ingroup views_templates
  */
 ?>
-<ul>
+<ul class="bibliografia h3">
 <?php foreach ($variables['view']->result as $id => $referencia): ?>
 <li>
   <b><?php print $referencia->node_title; ?></b>;&nbsp;

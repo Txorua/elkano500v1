@@ -46,6 +46,7 @@ body {
 .site-header nav[role=navigation] {
   position: relative;
   margin-bottom: 0;
+  text-shadow: inset rgba(0, 0, 0, 0.5) -1px 0, rgba(0, 0, 0, 0.3) 0 -1px, rgba(255, 255, 255, 0.5) 0 1px, rgba(0, 0, 0, 0.3) -1px -2px;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -53,21 +54,25 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-/* line 44, ../../scss/screen.scss */
+/* line 45, ../../scss/screen.scss */
 .site-header nav[role=navigation] a {
   color: 29286a;
 }
-/* line 48, ../../scss/screen.scss */
+/* line 47, ../../scss/screen.scss */
+.site-header nav[role=navigation] a:hover {
+  color: #190f40;
+}
+/* line 52, ../../scss/screen.scss */
 .site-header nav[role=navigation] a.navbar-brand img {
   position: absolute;
   margin-top: -4em;
   margin-left: 0.5em;
 }
-/* line 55, ../../scss/screen.scss */
+/* line 59, ../../scss/screen.scss */
 .site-header nav[role=navigation] .navbar-collapse ul {
   font-family: "Alegreya", serif;
 }
-/* line 57, ../../scss/screen.scss */
+/* line 61, ../../scss/screen.scss */
 .site-header nav[role=navigation] .navbar-collapse ul li.leaf {
   list-style-image: none;
   list-style-type: none;
@@ -76,7 +81,7 @@ body {
 /**
  * Slider
  */
-/* line 69, ../../scss/screen.scss */
+/* line 73, ../../scss/screen.scss */
 #slideshow {
   position: relative;
   z-index: 10;
@@ -85,7 +90,7 @@ body {
 /**
  * Main content
  */
-/* line 77, ../../scss/screen.scss */
+/* line 81, ../../scss/screen.scss */
 main {
   margin-top: 3em;
   padding-top: 0em;
@@ -93,28 +98,28 @@ main {
   margin-bottom: 3em;
   font-family: Alegreya, serif;
 }
-/* line 81, ../../scss/screen.scss */
+/* line 85, ../../scss/screen.scss */
 main a {
   color: #777777;
 }
-/* line 86, ../../scss/screen.scss */
+/* line 90, ../../scss/screen.scss */
 main article p {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.75em;
 }
-/* line 89, ../../scss/screen.scss */
+/* line 93, ../../scss/screen.scss */
 main article img {
   vertical-align: middle;
 }
-/* line 94, ../../scss/screen.scss */
+/* line 98, ../../scss/screen.scss */
 main .marco-foto {
   padding: 0.5em;
   background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
   background-size: cover;
 }
-/* line 100, ../../scss/screen.scss */
+/* line 104, ../../scss/screen.scss */
 main blockquote {
   text-align: center;
   font-style: italic;
@@ -123,13 +128,13 @@ main blockquote {
 /**
  * Site footer
  */
-/* line 109, ../../scss/screen.scss */
+/* line 113, ../../scss/screen.scss */
 .site-footer {
   color: #eeeeee;
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 112, ../../scss/screen.scss */
+/* line 116, ../../scss/screen.scss */
 .site-footer .row {
   background-color: #29286a;
   margin-top: 0em;
@@ -137,7 +142,7 @@ main blockquote {
   padding-bottom: 1.5em;
   margin-bottom: 0em;
 }
-/* line 115, ../../scss/screen.scss */
+/* line 119, ../../scss/screen.scss */
 .site-footer .row:last-child {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -146,42 +151,52 @@ main blockquote {
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 121, ../../scss/screen.scss */
+/* line 125, ../../scss/screen.scss */
 .site-footer .redes-sociales {
   background-color: transparent;
   border-bottom: solid 0.3em #29286a;
   margin-bottom: 0.5em;
 }
-/* line 126, ../../scss/screen.scss */
+/* line 130, ../../scss/screen.scss */
 .site-footer .redes-sociales ul {
   background-color: white;
   margin-bottom: -0.3em;
 }
-/* line 132, ../../scss/screen.scss */
+/* line 136, ../../scss/screen.scss */
 .site-footer .footer-heading {
   font-family: serif;
   color: #eeeeee;
   margin-bottom: 0.5em;
 }
-/* line 141, ../../scss/screen.scss */
+/* line 145, ../../scss/screen.scss */
 .site-footer #udala h1:before {
   content: url(../../assets/images/logo-getariako-udala.png) " ";
   vertical-align: top;
 }
-/* line 145, ../../scss/screen.scss */
+/* line 149, ../../scss/screen.scss */
 .site-footer #turismo h1:before {
   content: url(../../assets/images/logo-getaria-turismo.png) " ";
   vertical-align: top;
 }
-/* line 149, ../../scss/screen.scss */
+/* line 153, ../../scss/screen.scss */
 .site-footer .footer-menu a {
   color: #eeeeee;
+}
+
+/* line 158, ../../scss/screen.scss */
+ul.bibliografia {
+  list-style: outside none none;
+}
+/* line 160, ../../scss/screen.scss */
+ul.bibliografia li:before {
+  content: url("../images/pluma.png") " ";
+  vertical-align: top;
 }
 
 /**
  * Centenario
  */
-/* line 157, ../../scss/screen.scss */
+/* line 169, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -190,24 +205,24 @@ main blockquote {
 }
 
 @media (min-width: 768px) {
-  /* line 162, ../../scss/screen.scss */
+  /* line 174, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
     border-top: solid 1em white;
   }
-  /* line 165, ../../scss/screen.scss */
+  /* line 177, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
 
-  /* line 169, ../../scss/screen.scss */
+  /* line 181, ../../scss/screen.scss */
   #slideshow {
     margin-top: -3.4em;
   }
 }
 @media (min-width: 992px) {
-  /* line 175, ../../scss/screen.scss */
+  /* line 187, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;

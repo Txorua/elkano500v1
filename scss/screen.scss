@@ -37,12 +37,16 @@ body {
   nav[role=navigation] {
     position: relative;
     margin-bottom: 0;
+      text-shadow: inset rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
     @include border-radius(0);
     z-index: 20;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     a {
       color: 29286a;
+      &:hover {
+        color: darken(#29186a, 10%);
+      }
     }
     a.navbar-brand {
         img {
@@ -148,6 +152,14 @@ main {
   }
   .footer-menu a {
     color: #eeeeee;
+  }
+}
+
+ul.bibliografia {
+  list-style: outside none none;
+  li:before {
+    content: url("../images/pluma.png") " ";
+    vertical-align: top;
   }
 }
 
