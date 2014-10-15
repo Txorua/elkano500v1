@@ -126,8 +126,10 @@ main blockquote {
 /* line 109, ../../scss/screen.scss */
 .site-footer {
   color: #eeeeee;
+  font-size: 0.75em;
+  line-height: 2em;
 }
-/* line 111, ../../scss/screen.scss */
+/* line 112, ../../scss/screen.scss */
 .site-footer .row {
   background-color: #29286a;
   margin-top: 0em;
@@ -135,7 +137,7 @@ main blockquote {
   padding-bottom: 1.5em;
   margin-bottom: 0em;
 }
-/* line 114, ../../scss/screen.scss */
+/* line 115, ../../scss/screen.scss */
 .site-footer .row:last-child {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -144,27 +146,22 @@ main blockquote {
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 120, ../../scss/screen.scss */
+/* line 121, ../../scss/screen.scss */
 .site-footer .redes-sociales {
   background-color: transparent;
   border-bottom: solid 0.3em #29286a;
   margin-bottom: 0.5em;
 }
-/* line 125, ../../scss/screen.scss */
+/* line 126, ../../scss/screen.scss */
 .site-footer .redes-sociales ul {
   background-color: white;
   margin-bottom: -0.3em;
 }
-/* line 131, ../../scss/screen.scss */
+/* line 132, ../../scss/screen.scss */
 .site-footer .footer-heading {
   font-family: serif;
   color: #eeeeee;
   margin-bottom: 0.5em;
-}
-/* line 137, ../../scss/screen.scss */
-.site-footer .footer-heading p {
-  font-size: 0.75em;
-  line-height: 2em;
 }
 /* line 141, ../../scss/screen.scss */
 .site-footer #udala h1:before {

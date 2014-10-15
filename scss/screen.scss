@@ -108,6 +108,7 @@ main {
  */
 .site-footer {
   color: #eeeeee;
+  @include adjust-font-size-to(12px);
   .row {
     background-color: #29286a;
     @include rhythm(0,1,1,0);
@@ -134,8 +135,7 @@ main {
     margin-bottom: 0.5em;
 
   }
-  .footer-heading p {
-    @include adjust-font-size-to(12px);
+  p {
   }
 
   #udala h1:before {
