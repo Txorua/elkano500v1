@@ -110,11 +110,17 @@ main {
   color: #eeeeee;
   .row {
     background-color: #29286a;
+    @include rhythm(0,1,1,0);
+    &:last-child {
+      @include rhythm(0,1,0,0);
+      @include adjust-font-size-to(12px);
+    }
   }
 
   .redes-sociales {
     background-color: transparent;
     border-bottom: solid 0.3em #29286a;
+    margin-bottom: 0.5em;
 
     ul {
       background-color: white;
@@ -126,13 +132,18 @@ main {
     font-family: serif;
     color: #eeeeee;
     margin-bottom: 0.5em;
+
   }
+  .footer-heading p {
+    @include adjust-font-size-to(12px);
+  }
+
   #udala h1:before {
-    content: url(../../assets/images/logo-getariako-udala.png);
+    content: url(../../assets/images/logo-getariako-udala.png) '\0000A0';
     vertical-align: top;
   }
   #turismo h1:before {
-    content: url(../../assets/images/logo-getaria-turismo.png);
+    content: url(../../assets/images/logo-getaria-turismo.png) '\0000A0';
     vertical-align: top;
   }
   .footer-menu a {
