@@ -170,6 +170,10 @@ ul.bibliografia {
   @include rhythm(0,0,0,1);
 }
 
+[class^=translation] {
+  display: none;
+}
+
 @media (min-width: 768px) {
   nav[role=navigation] {
     background-color: rgba(white, 0.8);

@@ -204,25 +204,30 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
+/* line 173, ../../scss/screen.scss */
+[class^=translation] {
+  display: none;
+}
+
 @media (min-width: 768px) {
-  /* line 174, ../../scss/screen.scss */
+  /* line 178, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
     border-top: solid 1em white;
   }
-  /* line 177, ../../scss/screen.scss */
+  /* line 181, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
 
-  /* line 181, ../../scss/screen.scss */
+  /* line 185, ../../scss/screen.scss */
   #slideshow {
     margin-top: -3.4em;
   }
 }
 @media (min-width: 992px) {
-  /* line 187, ../../scss/screen.scss */
+  /* line 191, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
