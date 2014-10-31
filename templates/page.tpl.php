@@ -77,7 +77,7 @@
   <div class="container">
     <div class="text-right">
       <ul class="header-links list-inline list-unstyled h4">
-        <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="contact">contact</a></li>
+      <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="/<?php print $language->language; ?>/contact">contact</a></li>
         <?php if (!empty($language_links)): ?>
         <?php print $language_links; ?>
         <?php endif; ?>
