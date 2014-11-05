@@ -114,10 +114,10 @@ main article img {
   vertical-align: middle;
 }
 /* line 98, ../../scss/screen.scss */
-main .marco-foto {
-  padding: 0.5em;
-  background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
-  background-size: cover;
+main .marco-foto img {
+  padding: 1em;
+  background: transparent url(../../assets/images/marcofotos.png) no-repeat top left;
+  background-size: contain;
 }
 /* line 104, ../../scss/screen.scss */
 main blockquote {

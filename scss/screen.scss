@@ -95,10 +95,10 @@ main {
     }
   }
 
-  .marco-foto {
-    padding: 0.5em;
-    background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
-    background-size: cover;
+  .marco-foto img {
+    padding: 1em;
+    background: transparent url(../../assets/images/marcofotos.png) no-repeat top left;
+    background-size: contain;
   }
 
   blockquote {
