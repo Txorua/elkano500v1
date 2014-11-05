@@ -155,6 +155,13 @@ main {
   }
 }
 
+/**
+ * Portada
+ */
+.view-portada header h1 {
+  min-height: 2.5em;
+}
+
 ul.bibliografia {
   list-style: outside none none;
   li:before {
