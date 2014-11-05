@@ -13,7 +13,7 @@
 
 <?php foreach ($rows as $id => $row): ?>
 
-  <?php ($classes_array[$id] && $id < 2) ? $classes_array[$id] .= " col-md-6" : $classes_array[$id] .= " col-md-4"; ?>
+  <?php ($classes_array[$id] && $id < 2) ? $classes_array[$id] .= " col-md-6" : $classes_array[$id] .= " col-md-4 con-padding"; ?>
 
   <?php if ($id == 0 || $id == 2): ?>
   <div class="row">

@@ -192,10 +192,16 @@ main blockquote {
 }
 
 /* line 165, ../../scss/screen.scss */
+.view-portada .con-padding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* line 170, ../../scss/screen.scss */
 ul.bibliografia {
   list-style: outside none none;
 }
-/* line 167, ../../scss/screen.scss */
+/* line 172, ../../scss/screen.scss */
 ul.bibliografia li:before {
   content: url("../images/pluma.png") " ";
   vertical-align: top;
@@ -204,7 +210,7 @@ ul.bibliografia li:before {
 /**
  * Centenario
  */
-/* line 176, ../../scss/screen.scss */
+/* line 181, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -212,30 +218,30 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
-/* line 180, ../../scss/screen.scss */
+/* line 185, ../../scss/screen.scss */
 [class^=translation] {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 185, ../../scss/screen.scss */
+  /* line 190, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
     border-top: solid 1em white;
   }
-  /* line 188, ../../scss/screen.scss */
+  /* line 193, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
 
-  /* line 192, ../../scss/screen.scss */
+  /* line 197, ../../scss/screen.scss */
   #slideshow {
     margin-top: -3.4em;
   }
 }
 @media (min-width: 992px) {
-  /* line 198, ../../scss/screen.scss */
+  /* line 203, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
