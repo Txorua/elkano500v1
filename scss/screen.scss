@@ -100,9 +100,6 @@ main {
     background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
     background-size: contain;
   }
-  .col-md-4 .marco-foto img {
-    padding: 0.5em;
-  }
 
   blockquote {
     text-align: center;
@@ -215,6 +212,10 @@ ul.bibliografia {
     }
   }
   #slideshow {
+  }
+
+  .col-md-4 .marco-foto img {
+    padding: 0.5em;
   }
 }
 @media (min-width: 1200px) {
