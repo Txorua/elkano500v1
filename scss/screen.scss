@@ -26,7 +26,7 @@ body {
     color: #eeeeee;
   }
   .header-links {
-    @include rhythm(0,1,1,0);
+    @include rhythm(0,0.5,0.5,0);
     a.active {
       color: #777777;
     }
@@ -37,7 +37,7 @@ body {
   nav[role=navigation] {
     position: relative;
     margin-bottom: 0;
-      text-shadow: inset rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+    text-shadow: inset rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
     @include border-radius(0);
     z-index: 20;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ main {
   }
 
   .marco-foto img {
-    padding: 1em;
+    padding: 0.5em;
     background: transparent url(../../assets/images/marcofotos.png) no-repeat top left;
     background-size: contain;
   }
@@ -162,6 +162,10 @@ main {
   min-height: 2.5em;
 }
 
+.view-portada .row {
+  @include rhythm(0,0,1.5,0);
+}
+
 .view-portada .con-padding {
   padding-left: 2em;
   padding-right: 2em;
@@ -189,13 +193,16 @@ ul.bibliografia {
 @media (min-width: 768px) {
   nav[role=navigation] {
     background-color: rgba(white, 0.8);
-    border-top: solid 1em white;
+    //border-top: solid 1em white;
     ul {
       @include adjust-font-size-to(14px);
+      li {
+        padding-top: 0;
+      }
     }
   }
   #slideshow {
-    margin-top: -3.4em;
+    //margin-top: -3.4em;
   }
 }
 @media (min-width: 992px) {

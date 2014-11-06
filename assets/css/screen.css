@@ -30,8 +30,8 @@ body {
 /* line 28, ../../scss/screen.scss */
 .site-header .header-links {
   margin-top: 0em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   margin-bottom: 0em;
 }
 /* line 30, ../../scss/screen.scss */
@@ -115,7 +115,7 @@ main article img {
 }
 /* line 98, ../../scss/screen.scss */
 main .marco-foto img {
-  padding: 1em;
+  padding: 0.5em;
   background: transparent url(../../assets/images/marcofotos.png) no-repeat top left;
   background-size: contain;
 }
@@ -192,16 +192,24 @@ main blockquote {
 }
 
 /* line 165, ../../scss/screen.scss */
+.view-portada .row {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 2.25em;
+  margin-bottom: 0em;
+}
+
+/* line 169, ../../scss/screen.scss */
 .view-portada .con-padding {
   padding-left: 2em;
   padding-right: 2em;
 }
 
-/* line 170, ../../scss/screen.scss */
+/* line 174, ../../scss/screen.scss */
 ul.bibliografia {
   list-style: outside none none;
 }
-/* line 172, ../../scss/screen.scss */
+/* line 176, ../../scss/screen.scss */
 ul.bibliografia li:before {
   content: url("../images/pluma.png") " ";
   vertical-align: top;
@@ -210,7 +218,7 @@ ul.bibliografia li:before {
 /**
  * Centenario
  */
-/* line 181, ../../scss/screen.scss */
+/* line 185, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -218,30 +226,28 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
-/* line 185, ../../scss/screen.scss */
+/* line 189, ../../scss/screen.scss */
 [class^=translation] {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 190, ../../scss/screen.scss */
+  /* line 194, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
-    border-top: solid 1em white;
   }
-  /* line 193, ../../scss/screen.scss */
+  /* line 197, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
-
-  /* line 197, ../../scss/screen.scss */
-  #slideshow {
-    margin-top: -3.4em;
+  /* line 199, ../../scss/screen.scss */
+  nav[role=navigation] ul li {
+    padding-top: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 203, ../../scss/screen.scss */
+  /* line 210, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
