@@ -6,7 +6,7 @@
 <?php if ($view_mode == "teaser"): ?>
 <article>
   <header class="text-center">
-    <h1><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h1>
+    <h1 <?php if ($is_front && !$sticky):?>class="h2"<?php endif; ?>><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h1>
   </header>
   <div class="row">
       <div class="marco-foto">
