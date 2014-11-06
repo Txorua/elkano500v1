@@ -115,11 +115,15 @@ main article img {
 }
 /* line 98, ../../scss/screen.scss */
 main .marco-foto img {
-  padding: 0.5em;
-  background: transparent url(../../assets/images/marcofotos.png) no-repeat top left;
+  padding: 1em;
+  background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
   background-size: contain;
 }
-/* line 104, ../../scss/screen.scss */
+/* line 103, ../../scss/screen.scss */
+main .col-md-4 .marco-foto img {
+  padding: 0.5em;
+}
+/* line 107, ../../scss/screen.scss */
 main blockquote {
   text-align: center;
   font-style: italic;
@@ -128,13 +132,13 @@ main blockquote {
 /**
  * Site footer
  */
-/* line 113, ../../scss/screen.scss */
+/* line 116, ../../scss/screen.scss */
 .site-footer {
   color: #eeeeee;
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 116, ../../scss/screen.scss */
+/* line 119, ../../scss/screen.scss */
 .site-footer .row {
   background-color: #29286a;
   margin-top: 0em;
@@ -142,7 +146,7 @@ main blockquote {
   padding-bottom: 1.5em;
   margin-bottom: 0em;
 }
-/* line 119, ../../scss/screen.scss */
+/* line 122, ../../scss/screen.scss */
 .site-footer .row:last-child {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -151,34 +155,34 @@ main blockquote {
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 125, ../../scss/screen.scss */
+/* line 128, ../../scss/screen.scss */
 .site-footer .redes-sociales {
   background-color: transparent;
   border-bottom: solid 0.3em #29286a;
   margin-bottom: 0.5em;
 }
-/* line 130, ../../scss/screen.scss */
+/* line 133, ../../scss/screen.scss */
 .site-footer .redes-sociales ul {
   background-color: white;
   margin-bottom: -0.3em;
 }
-/* line 136, ../../scss/screen.scss */
+/* line 139, ../../scss/screen.scss */
 .site-footer .footer-heading {
   font-family: serif;
   color: #eeeeee;
   margin-bottom: 0.5em;
 }
-/* line 145, ../../scss/screen.scss */
+/* line 148, ../../scss/screen.scss */
 .site-footer #udala h1:before {
   content: url(../../assets/images/logo-getariako-udala.png) " ";
   vertical-align: top;
 }
-/* line 149, ../../scss/screen.scss */
+/* line 152, ../../scss/screen.scss */
 .site-footer #turismo h1:before {
   content: url(../../assets/images/logo-getaria-turismo.png) " ";
   vertical-align: top;
 }
-/* line 153, ../../scss/screen.scss */
+/* line 156, ../../scss/screen.scss */
 .site-footer .footer-menu a {
   color: #eeeeee;
 }
@@ -186,12 +190,12 @@ main blockquote {
 /**
  * Portada
  */
-/* line 161, ../../scss/screen.scss */
+/* line 164, ../../scss/screen.scss */
 .view-portada header h1 {
   min-height: 2.5em;
 }
 
-/* line 165, ../../scss/screen.scss */
+/* line 168, ../../scss/screen.scss */
 .view-portada .row {
   margin-top: 0em;
   padding-top: 0em;
@@ -199,17 +203,17 @@ main blockquote {
   margin-bottom: 0em;
 }
 
-/* line 169, ../../scss/screen.scss */
+/* line 172, ../../scss/screen.scss */
 .view-portada .con-padding {
   padding-left: 2em;
   padding-right: 2em;
 }
 
-/* line 174, ../../scss/screen.scss */
+/* line 177, ../../scss/screen.scss */
 ul.bibliografia {
   list-style: outside none none;
 }
-/* line 176, ../../scss/screen.scss */
+/* line 179, ../../scss/screen.scss */
 ul.bibliografia li:before {
   content: url("../images/pluma.png") " ";
   vertical-align: top;
@@ -218,7 +222,7 @@ ul.bibliografia li:before {
 /**
  * Centenario
  */
-/* line 185, ../../scss/screen.scss */
+/* line 188, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -226,28 +230,28 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
-/* line 189, ../../scss/screen.scss */
+/* line 192, ../../scss/screen.scss */
 [class^=translation] {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 194, ../../scss/screen.scss */
+  /* line 197, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
   }
-  /* line 197, ../../scss/screen.scss */
+  /* line 200, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
-  /* line 199, ../../scss/screen.scss */
+  /* line 202, ../../scss/screen.scss */
   nav[role=navigation] ul li {
     padding-top: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 210, ../../scss/screen.scss */
+  /* line 213, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
