@@ -185,7 +185,7 @@
           <li><a href="#">Mapa Web</a></li>
           <li><a href="#">Aviso legal</a></li>
           <li><a href="#">Privacidad</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="/<?php print $language->language; ?>/contact"><?php print t("Contact"); ?></a></li>
         </ul>
       </div>
 
