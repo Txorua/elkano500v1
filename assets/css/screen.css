@@ -168,17 +168,25 @@ main blockquote {
   color: #eeeeee;
   margin-bottom: 0.5em;
 }
-/* line 145, ../../scss/screen.scss */
+/* line 146, ../../scss/screen.scss */
+.site-footer #udala h1 a {
+  color: #ccc;
+}
+/* line 147, ../../scss/screen.scss */
 .site-footer #udala h1:before {
   content: url(../../assets/images/logo-getariako-udala.png) " ";
   vertical-align: top;
 }
-/* line 149, ../../scss/screen.scss */
+/* line 153, ../../scss/screen.scss */
+.site-footer #turismo h1 a {
+  color: #ccc;
+}
+/* line 154, ../../scss/screen.scss */
 .site-footer #turismo h1:before {
   content: url(../../assets/images/logo-getaria-turismo.png) " ";
   vertical-align: top;
 }
-/* line 153, ../../scss/screen.scss */
+/* line 159, ../../scss/screen.scss */
 .site-footer .footer-menu a {
   color: #eeeeee;
 }
@@ -186,12 +194,12 @@ main blockquote {
 /**
  * Portada
  */
-/* line 161, ../../scss/screen.scss */
+/* line 167, ../../scss/screen.scss */
 .view-portada header h1 {
   min-height: 2.5em;
 }
 
-/* line 165, ../../scss/screen.scss */
+/* line 171, ../../scss/screen.scss */
 .view-portada .row {
   margin-top: 0em;
   padding-top: 0em;
@@ -199,17 +207,17 @@ main blockquote {
   margin-bottom: 0em;
 }
 
-/* line 169, ../../scss/screen.scss */
+/* line 175, ../../scss/screen.scss */
 .view-portada .con-padding {
   padding-left: 2em;
   padding-right: 2em;
 }
 
-/* line 174, ../../scss/screen.scss */
+/* line 180, ../../scss/screen.scss */
 ul.bibliografia {
   list-style: outside none none;
 }
-/* line 176, ../../scss/screen.scss */
+/* line 182, ../../scss/screen.scss */
 ul.bibliografia li:before {
   content: url("../images/pluma.png") " ";
   vertical-align: top;
@@ -218,7 +226,7 @@ ul.bibliografia li:before {
 /**
  * Centenario
  */
-/* line 185, ../../scss/screen.scss */
+/* line 191, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -226,34 +234,34 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
-/* line 189, ../../scss/screen.scss */
+/* line 195, ../../scss/screen.scss */
 [class^=translation] {
   display: none;
 }
 
 @media (min-width: 768px) {
-  /* line 194, ../../scss/screen.scss */
+  /* line 200, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
   }
-  /* line 197, ../../scss/screen.scss */
+  /* line 203, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
-  /* line 199, ../../scss/screen.scss */
+  /* line 205, ../../scss/screen.scss */
   nav[role=navigation] ul li {
     padding-top: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 210, ../../scss/screen.scss */
+  /* line 216, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
   }
 
-  /* line 217, ../../scss/screen.scss */
+  /* line 223, ../../scss/screen.scss */
   .col-md-4 .marco-foto img {
     padding: 0.5em;
   }

@@ -142,13 +142,19 @@ main {
   p {
   }
 
-  #udala h1:before {
-    content: url(../../assets/images/logo-getariako-udala.png) '\0000A0';
-    vertical-align: top;
+  #udala h1 {
+    a { color: #ccc; }
+    &:before {
+      content: url(../../assets/images/logo-getariako-udala.png) '\0000A0';
+      vertical-align: top;
+    }
   }
-  #turismo h1:before {
-    content: url(../../assets/images/logo-getaria-turismo.png) '\0000A0';
-    vertical-align: top;
+  #turismo h1 {
+    a { color: #ccc; }
+    &:before {
+      content: url(../../assets/images/logo-getaria-turismo.png) '\0000A0';
+      vertical-align: top;
+    }
   }
   .footer-menu a {
     color: #eeeeee;
