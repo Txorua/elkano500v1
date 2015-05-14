@@ -62,6 +62,11 @@ body {
           list-style-image: none;
           list-style-type: none;
         }
+        li {
+          ul {
+            font-size: 14px;
+          }
+        }
       }
     }
   }

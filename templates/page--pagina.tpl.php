@@ -118,6 +118,11 @@
     <?php print render($page['help']); ?>
   <?php endif; ?>
   <a id="main-content"></a>
+  <?php if ($breadcrumb): ?>
+    <div class="breadcrumd">
+    <?php print $breadcrumb; ?>
+    </div>
+  <?php endif; ?>
   <article>
     <header>
       <?php print render($title_prefix); ?>
