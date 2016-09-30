@@ -30,8 +30,8 @@ body {
 /* line 28, ../../scss/screen.scss */
 .site-header .header-links {
   margin-top: 0em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1.2em;
+  padding-bottom: 0.75em;
   margin-bottom: 0em;
 }
 /* line 30, ../../scss/screen.scss */
@@ -77,11 +77,15 @@ body {
   list-style-image: none;
   list-style-type: none;
 }
+/* line 66, ../../scss/screen.scss */
+.site-header nav[role=navigation] .navbar-collapse ul li ul {
+  font-size: 14px;
+}
 
 /**
  * Slider
  */
-/* line 73, ../../scss/screen.scss */
+/* line 78, ../../scss/screen.scss */
 #slideshow {
   position: relative;
   z-index: 10;
@@ -90,7 +94,7 @@ body {
 /**
  * Main content
  */
-/* line 81, ../../scss/screen.scss */
+/* line 86, ../../scss/screen.scss */
 main {
   margin-top: 3em;
   padding-top: 0em;
@@ -98,28 +102,28 @@ main {
   margin-bottom: 3em;
   font-family: Alegreya, serif;
 }
-/* line 85, ../../scss/screen.scss */
+/* line 90, ../../scss/screen.scss */
 main a {
   color: #777777;
 }
-/* line 90, ../../scss/screen.scss */
+/* line 95, ../../scss/screen.scss */
 main article p {
   margin-top: 0em;
   padding-top: 0em;
   padding-bottom: 0em;
   margin-bottom: 0.75em;
 }
-/* line 93, ../../scss/screen.scss */
+/* line 98, ../../scss/screen.scss */
 main article img {
   vertical-align: middle;
 }
-/* line 98, ../../scss/screen.scss */
-main .marco-foto {
-  padding: 0.5em;
+/* line 103, ../../scss/screen.scss */
+main .marco-foto img {
+  padding: 1em;
   background: transparent url(../../assets/images/marcofotos.png) no-repeat center center;
-  background-size: cover;
+  background-size: contain;
 }
-/* line 104, ../../scss/screen.scss */
+/* line 109, ../../scss/screen.scss */
 main blockquote {
   text-align: center;
   font-style: italic;
@@ -128,13 +132,13 @@ main blockquote {
 /**
  * Site footer
  */
-/* line 113, ../../scss/screen.scss */
+/* line 118, ../../scss/screen.scss */
 .site-footer {
   color: #eeeeee;
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 116, ../../scss/screen.scss */
+/* line 121, ../../scss/screen.scss */
 .site-footer .row {
   background-color: #29286a;
   margin-top: 0em;
@@ -142,7 +146,7 @@ main blockquote {
   padding-bottom: 1.5em;
   margin-bottom: 0em;
 }
-/* line 119, ../../scss/screen.scss */
+/* line 124, ../../scss/screen.scss */
 .site-footer .row:last-child {
   margin-top: 0em;
   padding-top: 1.5em;
@@ -151,43 +155,73 @@ main blockquote {
   font-size: 0.75em;
   line-height: 2em;
 }
-/* line 125, ../../scss/screen.scss */
+/* line 130, ../../scss/screen.scss */
 .site-footer .redes-sociales {
   background-color: transparent;
   border-bottom: solid 0.3em #29286a;
   margin-bottom: 0.5em;
 }
-/* line 130, ../../scss/screen.scss */
+/* line 135, ../../scss/screen.scss */
 .site-footer .redes-sociales ul {
   background-color: white;
-  margin-bottom: -0.3em;
+  margin-bottom: -0.972222222em;
 }
-/* line 136, ../../scss/screen.scss */
+/* line 141, ../../scss/screen.scss */
 .site-footer .footer-heading {
   font-family: serif;
   color: #eeeeee;
   margin-bottom: 0.5em;
 }
-/* line 145, ../../scss/screen.scss */
+/* line 151, ../../scss/screen.scss */
+.site-footer #udala h1 a {
+  color: #ccc;
+}
+/* line 152, ../../scss/screen.scss */
 .site-footer #udala h1:before {
   content: url(../../assets/images/logo-getariako-udala.png) " ";
   vertical-align: top;
 }
-/* line 149, ../../scss/screen.scss */
+/* line 158, ../../scss/screen.scss */
+.site-footer #turismo h1 a {
+  color: #ccc;
+}
+/* line 159, ../../scss/screen.scss */
 .site-footer #turismo h1:before {
   content: url(../../assets/images/logo-getaria-turismo.png) " ";
   vertical-align: top;
 }
-/* line 153, ../../scss/screen.scss */
+/* line 164, ../../scss/screen.scss */
 .site-footer .footer-menu a {
   color: #eeeeee;
 }
 
-/* line 158, ../../scss/screen.scss */
+/**
+ * Portada
+ */
+/* line 172, ../../scss/screen.scss */
+.view-portada header h1 {
+  min-height: 2.5em;
+}
+
+/* line 176, ../../scss/screen.scss */
+.view-portada .row {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 2.25em;
+  margin-bottom: 0em;
+}
+
+/* line 180, ../../scss/screen.scss */
+.view-portada .con-padding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* line 185, ../../scss/screen.scss */
 ul.bibliografia {
   list-style: outside none none;
 }
-/* line 160, ../../scss/screen.scss */
+/* line 187, ../../scss/screen.scss */
 ul.bibliografia li:before {
   content: url("../images/pluma.png") " ";
   vertical-align: top;
@@ -196,7 +230,7 @@ ul.bibliografia li:before {
 /**
  * Centenario
  */
-/* line 169, ../../scss/screen.scss */
+/* line 196, ../../scss/screen.scss */
 .isotope-item {
   margin-top: 0em;
   padding-top: 0em;
@@ -204,27 +238,35 @@ ul.bibliografia li:before {
   margin-bottom: 1.5em;
 }
 
+/* line 200, ../../scss/screen.scss */
+[class^=translation] {
+  display: none;
+}
+
 @media (min-width: 768px) {
-  /* line 174, ../../scss/screen.scss */
+  /* line 205, ../../scss/screen.scss */
   nav[role=navigation] {
     background-color: rgba(255, 255, 255, 0.8);
-    border-top: solid 1em white;
   }
-  /* line 177, ../../scss/screen.scss */
+  /* line 208, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 0.875em;
     line-height: 1.71429em;
   }
-
-  /* line 181, ../../scss/screen.scss */
-  #slideshow {
-    margin-top: -3.4em;
+  /* line 210, ../../scss/screen.scss */
+  nav[role=navigation] ul li {
+    padding-top: 0;
   }
 }
 @media (min-width: 992px) {
-  /* line 187, ../../scss/screen.scss */
+  /* line 221, ../../scss/screen.scss */
   nav[role=navigation] ul {
     font-size: 1em;
     line-height: 1.5em;
+  }
+
+  /* line 228, ../../scss/screen.scss */
+  .col-md-4 .marco-foto img {
+    padding: 0.5em;
   }
 }

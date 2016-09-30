@@ -5,28 +5,16 @@
 ?>
 <?php if ($view_mode == "teaser"): ?>
 <article>
-  <header>
-    <h1><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h1>
+  <header class="text-center">
+    <h1 <?php if ($is_front && !$sticky):?>class="h2"<?php endif; ?>><a href="<?php print $node_url; ?>" title="<?php print $title; ?>"><?php print $title; ?></a></h1>
   </header>
   <div class="row">
-    <div class="col-sm-7">
-      <div class="lead">
-      <?php print render($content['body']); ?>
-      <?php hide($content['links']['node']); ?>
-        <p class="hidden-xs text-right"><a title="<?php print $node->title; ?>" rel="tag" href="<?php print $node_url; ?>"><span><img src="<?php print base_path() . drupal_get_path('theme', 'elkano500'); ?>/assets/images/flecha.png"></span><?php print t('continuar'); ?>&hellip;</a></p>
-      </div>
-    </div>
-
-    <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
       <div class="marco-foto">
         <?php
-          $content['field_imagen_resumen'][0]['#item']['attributes'] = array('class' => 'img-responsive');
+          $content['field_imagen_resumen'][0]['#item']['attributes'] = array('class' => 'img-responsive center-block');
           print render($content['field_imagen_resumen'][0]);
         ?>
       </div>
-    </div>
-    <div class="clearfix visible-xs-block"></div>
-    <p class="visible-xs text-right"><a title="<?php print $node->title; ?>" rel="tag" href="<?php print $node_url; ?>"><span><img src="<?php print base_path() . drupal_get_path('theme', 'elkano500'); ?>/assets/images/flecha.png"></span><?php print t('continuar'); ?>&hellip;</a></p>
   </div>
 </article>
 <?php endif; ?>

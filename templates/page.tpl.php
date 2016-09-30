@@ -77,7 +77,7 @@
   <div class="container">
     <div class="text-right">
       <ul class="header-links list-inline list-unstyled h4">
-        <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="contact">contact</a></li>
+      <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="/<?php print $language->language; ?>/contact">contact</a></li>
         <?php if (!empty($language_links)): ?>
         <?php print $language_links; ?>
         <?php endif; ?>
@@ -151,21 +151,27 @@
 
     <div class="row">
       <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-        <address id="udala">
-          <h1 class="footer-heading">Getariako Udala</h1>
-          <span class="glyphicon glyphicon-home">&nbsp;</span>Gudarien enparantza 1 20808 GETARIA<br>
-          <span class="glyphicon glyphicon-earphone">&nbsp;</span>{{ site.t_ui[page.lang].tel }}: (+34) 943 896 024<br>
-          <span class="glyphicon glyphicon-envelope">&nbsp;</span>Email: udala@getaria.org<br>
-        </address>
+        <div id="udala" class="vcard">
+          <h1 class="fn footer-heading"><a class="url" href="#">Getariako Udala</a></h1>
+          <p class="adr">
+            <span class="glyphicon glyphicon-home">&nbsp;</span><span class="street-address">Gudarien enparantza 1</span>
+            <span class="postal-code">20808</span> &ndash; <span class="locality">Getaria</span><br>
+          </p>
+          <span class="glyphicon glyphicon-earphone">&nbsp;</span><?php print t("Phone"); ?>: <span class="tel">(+34) 943 896 024</span><br>
+          <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t("Email"); ?>: <span class="email">udala@getaria.org</span><br>
+        </div>
       </div>
 
       <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-        <address id="turismo">
-          <h1 class="footer-heading">Getariako Turismoa</h1>
-          <span class="glyphicon glyphicon-home">&nbsp;</span>Aldamar Parkea 2 20808 GETARIA<br>
-          <span class="glyphicon glyphicon-earphone">&nbsp;</span>{{ site.t_ui[page.lang].tel }}: (+34) 943 140 957<br>
-          <span class="glyphicon glyphicon-envelope">&nbsp;</span>Email: turismogetaria@euskalnet.net<br>
-        </address>
+        <div id="turismo" class="vcard">
+          <h1 class="fn footer-heading"><a class="url" href="http:///www.getariaturismo.com">Getariako Turismoa</a></h1>
+          <p class="adr">
+            <span class="glyphicon glyphicon-home">&nbsp;</span><span class="street-address">Aldamar Parkea 2</span>
+            <span class="postal-code">20808</span> &ndash; <span class="locality">Getaria</span><br>
+          </p>
+          <span class="glyphicon glyphicon-earphone">&nbsp;</span><?php print t("Phone"); ?>: <span class="tel">(+34) 943 140 957</span><br>
+          <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t("Email"); ?>: <span class="email">turismogetaria@euskalnet.net</span><br>
+        </div>
       </div>
     </div>
   
@@ -176,7 +182,7 @@
           <li><a href="#">Mapa Web</a></li>
           <li><a href="#">Aviso legal</a></li>
           <li><a href="#">Privacidad</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="/<?php print $language->language; ?>/contact"><?php print t("Contact"); ?></a></li>
         </ul>
       </div>
 
@@ -184,3 +190,4 @@
 
   </div>
 </footer>
+

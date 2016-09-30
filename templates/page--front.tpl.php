@@ -77,7 +77,7 @@
   <div class="container">
     <div class="text-right">
       <ul class="header-links list-inline list-unstyled h4">
-        <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="contact">contact</a></li>
+        <li><span class="glyphicon glyphicon-envelope">&nbsp;</span><a href="/<?php print $language->language; ?>/contact">contact</a></li>
         <?php if (!empty($language_links)): ?>
         <?php print $language_links; ?>
         <?php endif; ?>
@@ -173,7 +173,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-5 col-sm-offset-1">
         <div id="udala" class="vcard">
-          <h1 class="fn footer-heading text-center"><a class="url" href="#">Getariako Udala</a></h1>
+          <h1 class="fn footer-heading"><a class="url" href="#">Getariako Udala</a></h1>
           <p class="adr">
             <span class="glyphicon glyphicon-home">&nbsp;</span><span class="street-address">Gudarien enparantza 1</span>
             <span class="postal-code">20808</span> &ndash; <span class="locality">Getaria</span><br>
@@ -185,7 +185,7 @@
 
       <div class="col-xs-12 col-sm-5 col-sm-offset-1">
         <div id="turismo" class="vcard">
-          <h1 class="fn footer-heading text-center"><a class="url" href="http:///www.getariaturismo.com">Getariako Turismoa</a></h1>
+          <h1 class="fn footer-heading"><a class="url" href="http:///www.getariaturismo.com">Getariako Turismoa</a></h1>
           <p class="adr">
             <span class="glyphicon glyphicon-home">&nbsp;</span><span class="street-address">Aldamar Parkea 2</span>
             <span class="postal-code">20808</span> &ndash; <span class="locality">Getaria</span><br>
@@ -203,7 +203,7 @@
           <li><a href="#">Mapa Web</a></li>
           <li><a href="#">Aviso legal</a></li>
           <li><a href="#">Privacidad</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="/<?php print $language->language; ?>/contact"><?php print t("Contact"); ?></a></li>
         </ul>
       </div>
 
