@@ -178,11 +178,11 @@
             <span class="postal-code">20808</span> &ndash; <span class="locality">Getaria</span><br>
           </p>
           <span class="glyphicon glyphicon-earphone">&nbsp;</span><?php print t("Phone"); ?>: <span class="tel">(+34) 943 140 957</span><br>
-          <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t("Email"); ?>: <span class="email">turismogetaria@euskalnet.net</span><br>
+          <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php print t("Email"); ?>: <span class="email">info@getariaturismo.eus</span><br>
         </div>
       </div>
     </div>
-  
+
     <div class="row">
       <div class="col-xs-12">
         <hr>
@@ -198,4 +198,3 @@
 
   </div>
 </footer>
-
